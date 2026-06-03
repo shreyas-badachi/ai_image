@@ -47,7 +47,8 @@ class HomeScreen extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
-                      color: Colors.blue.shade50,
+                      color: Colors.white,
+                      border: Border.all(color: Colors.black),
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Text(categories[index]),
@@ -71,13 +72,14 @@ class HomeScreen extends StatelessWidget {
                     width: 140,
                     margin: const EdgeInsets.only(right: 12),
                     decoration: BoxDecoration(
-                      color: Colors.grey.shade200,
+                      color: Colors.white,
+                      border: Border.all(color: Colors.black),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        const Icon(Icons.image, size: 50),
+                        const Icon(Icons.image, size: 50, color: Colors.black),
                         const SizedBox(height: 8),
                         Text(recent[index]),
                       ],

@@ -67,7 +67,8 @@ class _ImageGenerationScreenState extends State<ImageGenerationScreen> {
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
-                      color: selected ? Colors.blue : Colors.blue.shade50,
+                      color: selected ? Colors.black : Colors.white,
+                      border: Border.all(color: Colors.black),
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Text(
